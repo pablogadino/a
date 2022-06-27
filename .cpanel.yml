@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPL2=/home/aulacomu/public_html/a
+    - rsync -a -F c1 $DEPL2
