@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPL2=/home/aulacomu/public_html/a/
-    - /bin/rsync -anv ./c1 $DEPL2
+    - /bin/cp -R ./ $DEPL2
